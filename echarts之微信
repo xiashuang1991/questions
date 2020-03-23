@@ -1,0 +1,7 @@
+小程序中会造成图表不显示问题 
+1.初始化缺少null
+const chart = echarts.init(canvas, null, {
+    width: width,
+    height: height,
+    devicePixelRatio: dpr // 像素
+  });
